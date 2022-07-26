@@ -21,8 +21,12 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    
   },
+  "include": [
+    "./handler/getWeather/*"
+  ],
   "exclude": [
     "node_modules",
     "cdk.out"
